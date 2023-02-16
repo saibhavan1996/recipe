@@ -1,0 +1,245 @@
+.account-background-container {
+  background-color: #181818;
+}
+.account-container {
+  background-color: #e5e5e5;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+.account-details-container {
+  margin-left: 32px;
+  display: flex;
+  flex-direction: column;
+}
+.account-heading {
+  margin-top: 64px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 47px;
+  color: #131313;
+  padding-bottom: -24px;
+}
+.separator {
+  width: 296px;
+  height: 2px;
+  background: #cbd5e1;
+  border-radius: 10px;
+}
+.member-container {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: row;
+}
+.membership-head {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  color: #94a3b8;
+}
+.account-details-list {
+  list-style-type: none;
+
+  margin-top: 24px;
+}
+.user-id {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #1e293b;
+}
+.user {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #1e293b;
+  padding-left: 23px;
+}
+.Password {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #64748b;
+}
+.plan-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Plan-head {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  color: #94a3b8;
+  padding-right: 23px;
+}
+.premium-quality {
+  width: 56px;
+  height: 18px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #1e293b;
+  border: solid 1px #1e293b;
+  margin-left: 13px;
+}
+.logout-btn {
+  background: #e50914;
+  border-radius: 4px;
+  width: 89px;
+  height: 40px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  border-style: none;
+  color: #ffffff;
+  margin-left: 136px;
+  margin-top: 48px;
+  margin-bottom: 82px;
+}
+
+@media (min-width: 768px) {
+  .account-background-container {
+    background-color: #181818;
+  }
+  .account-container {
+    background-color: #e5e5e5;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .account-details-container {
+    margin-left: 165px;
+    display: flex;
+    flex-direction: column;
+  }
+  .account-heading {
+    margin-top: 64px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    color: #131313;
+    padding-bottom: -24px;
+  }
+  .separator {
+    width: 1200px;
+    height: 2px;
+    left: 11.46%;
+    right: 11.46%;
+    top: 23.24%;
+    bottom: 76.56%;
+    background: #cbd5e1;
+    border-radius: 10px;
+    margin-right: 165px;
+  }
+  .member-container {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+  }
+  .membership-head {
+    left: 11.46%;
+    right: 78.68%;
+    top: 25.78%;
+    bottom: 71.19%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+    padding-right: 24px;
+    color: #94a3b8;
+  }
+  .account-details-list {
+    list-style-type: none;
+    margin-left: -24px;
+    margin-top: 24px;
+  }
+  .user-id {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    color: #1e293b;
+  }
+  .Password {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    color: #64748b;
+  }
+  .plan-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .Plan-head {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+    color: #94a3b8;
+    padding-right: 41px;
+  }
+  .premium-quality {
+    width: 71px;
+    height: 23px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #1e293b;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border: 1px solid #1e293b;
+    margin-left: 20px;
+  }
+  .logout-btn {
+    padding: 8px 20px;
+    gap: 10px;
+    left: 46.88%;
+    right: 46.94%;
+    top: 49.61%;
+    bottom: 46.48%;
+    background: #e50914;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    width: 89px;
+    height: 40px;
+    border-style: none;
+    cursor: pointer;
+    margin: 64px;
+  }
+}

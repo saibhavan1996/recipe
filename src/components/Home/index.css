@@ -1,0 +1,66 @@
+.product-details-success-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+.product-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.recipe-image {
+  height: 200px;
+  width: 250px;
+}
+.product {
+  max-width: 750px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.quantity-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.product-description {
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.price-details {
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+
+.quantity-controller-button {
+  background-color: blueviolet;
+  border-radius: 15px;
+  height: 30px;
+  width: 30px;
+  align-self: center;
+  margin: 10px;
+  border-style: none;
+}
+.quantity-controller-icon {
+  color: white;
+}
+.quantity {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+.add-to-cart-btn {
+  background-color: blueviolet;
+  color: #ffffff;
+  height: 35px;
+  width: 120px;
+  border-radius: 10px;
+  border-style: none;
+}
